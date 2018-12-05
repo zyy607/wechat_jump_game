@@ -77,7 +77,7 @@ def on_click(event):
 
     distance = (dst_x - src_x)**2 + (dst_y - src_y)**2 
     distance = (distance ** 0.5) / scale
-    print('test distance = ', distance)
+    print('distance = ', distance)
     jump(distance)
     update = True
 
